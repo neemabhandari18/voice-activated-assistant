@@ -15,18 +15,13 @@ A simple offline voice assistant built using Python. It listens to your voice an
 
 ---
 
-#### 📦 Installation
+
+## 📦 Installation
 
 Make sure Python is installed on your system.
 
-#### 1. Clone the repository
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/neemabhandari18/voice-activated-assistant.git
 cd voice-activated-assistant
-
----
-### install dependencies 
-pip install -r requirements.txt
-
----
-## How to run
-python main.py
