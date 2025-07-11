@@ -1,28 +1,32 @@
 # 🎙️ Voice Activated Assistant (Python Project)
 
-A simple offline voice assistant built using Python that listens to your voice and performs tasks like telling time, date, searching Wikipedia, and opening Google.
+A simple offline voice assistant built using Python. It listens to your voice and performs basic tasks like telling the time, date, opening Google, and fetching Wikipedia summaries using speech recognition and text-to-speech libraries.
 
 ---
 
 ## 📌 Features
 
-- 🕒 Tells current time
-- 📅 Speaks today’s date
-- 🌐 Searches Wikipedia (2-line summary)
-- 🔎 Opens Google in browser
-- ❌ Exits on "exit" or "quit" command
-- 🗣️ Uses offline text-to-speech (pyttsx3)
+- 🕒 Speaks the current time  
+- 📅 Tells today’s date  
+- 🌐 Fetches 2-line Wikipedia summaries  
+- 🔎 Opens Google in your browser  
+- ❌ Exits on “exit” or “quit” command  
+- 🗣️ Uses offline text-to-speech (via `pyttsx3`)
 
 ---
 
 ## 📦 Installation
-pip install -r requirements.txt
 
+Make sure Python is installed on your system.
 
-1. **Clone the repository**
-
-```bash
+### 1. Clone the repository
 git clone https://github.com/neemabhandari18/voice-activated-assistant.git
 cd voice-activated-assistant
 
+---
+## install dependencies 
+pip install -r requirements.txt
 
+---
+## How to run
+python main.py
