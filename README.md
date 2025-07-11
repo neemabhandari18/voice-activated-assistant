@@ -15,21 +15,11 @@ A simple voice-activated assistant that can tell the time and date, search Wikip
 - 🖥️ **Open Apps**: Launch Notepad and Calculator (Windows)
 - ❌ **Exit Anytime**: Say "exit" or "quit" to close the assistant
 
----
 
----
 
-## 📦 Installation
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/neemabhandari18/voice-activated-assistant.git
-
----
 ## ▶️ How to Run
+
 ```bash
 python main.py
-
-
 
 
