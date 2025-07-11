@@ -1,25 +1,24 @@
-# voice-activated-assistant
+# 🎙️ Voice Activated Assistant (Python Project)
 
-A simple voice-activated assistant that can tell the time and date, search Wikipedia, open websites like Google or YouTube, and launch apps like Notepad or Calculator.
+A simple offline voice assistant built using Python that listens to your voice and performs tasks like telling time, date, searching Wikipedia, and opening Google.
 
 ---
 
 ## 📌 Features
 
-- 🎤 **Speech-to-Text**: Uses Google API for recognizing voice commands
-- 🔊 **Text-to-Speech**: Responds with a human-like voice
-- 🕒 **Time & Date**: Announces current system time and date
-- 📖 **Wikipedia Search**: Summarizes any topic from Wikipedia
-- 🌐 **Web Search**: Google search for anything you say
-- 📺 **Open Websites**: Opens Google, YouTube, and more
-- 🖥️ **Open Apps**: Launch Notepad and Calculator (Windows)
-- ❌ **Exit Anytime**: Say "exit" or "quit" to close the assistant
+- 🕒 Tells current time
+- 📅 Speaks today’s date
+- 🌐 Searches Wikipedia (2-line summary)
+- 🔎 Opens Google in browser
+- ❌ Exits on "exit" or "quit" command
+- 🗣️ Uses offline text-to-speech (pyttsx3)
 
+---
 
+## 📦 Installation
 
-## ▶️ How to Run
+1. **Clone the repository**
 
 ```bash
-python main.py
-
-
+git clone https://github.com/neemabhandari18/voice-activated-assistant.git
+cd voice-activated-assistant
